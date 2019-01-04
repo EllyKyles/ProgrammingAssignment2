@@ -13,3 +13,6 @@ makeCacheMatrix <- function(x = matrix()) {
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 }
+
+## note that this technique allows use or $ operator to access
+## each function from the list
